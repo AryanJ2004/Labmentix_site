@@ -31,7 +31,7 @@ export default function PremiumCTA() {
         </h2>
 
         <p className="text-lg max-w-3xl mx-auto mb-12">
-          Gain exclusive access to TwiLearn's premium portal where you can find referral-based job opportunities and get ahead in your career! Join our network and get the support you need to land your dream job.
+          Gain exclusive access to Labmentix premium portal where you can find referral-based job opportunities and get ahead in your career! Join our network and get the support you need to land your dream job.
           <span className="ml-2">🚀</span>
         </p>
 
