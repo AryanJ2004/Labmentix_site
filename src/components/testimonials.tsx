@@ -20,19 +20,19 @@ export default function Testimonials() {
   ]
 
   return (
-    <div className="container mx-auto px-4 py-16">
-      <h2 className="text-4xl font-bold text-center mb-16">
+    <div className="container mx-auto px-4 py-16 bg-[#0a0b2e]">
+      <h2 className="text-4xl font-bold text-center mb-16 text-white">
         Success Stories
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto place-items-center">
         {testimonials.map((testimonial) => (
-          <div key={testimonial.id} className="relative aspect-square bg-gray-100 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <div key={testimonial.id} className="relative w-80 h-80 bg-gray-100 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
             <Image
               src={testimonial.src}
               alt={testimonial.alt}
-              width={1080}
-              height={1080}
-              className="object-cover w-full h-full"
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              className="object-cover"
               priority={testimonial.id === 1}
             />
           </div>
