@@ -17,10 +17,10 @@ export default function PremiumCTA() {
         <div className="flex justify-center mb-16">
           <div className="text-center">
             <Image
-              src="/logo.jpg"
+              src="/flogo.png"
               alt="TwiLearn"
-              width={250}
-              height={60}
+              width={128}
+              height={128}
               priority
             />
           </div>

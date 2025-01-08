@@ -12,7 +12,7 @@ export default function KeyBenefits() {
     },
     {
       icon: <Medal className="w-8 h-8 text-[#ffd700]" />,
-      title: "2-Month Internship Certificate",
+      title: "Internship Certificate",
     },
     {
       icon: <Briefcase className="w-8 h-8 text-[#8b4513]" />,
